@@ -15,6 +15,7 @@ public class Smoke_login {
 		try{
 			driver=new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+			//
 			driver.manage().window().maximize();
 			driver.get("http://toolsqa.com/");
 			//driver.findElement(By.xpath(".//*[@id='primary-menu']/li[1]/a/span[1]/span/span")).click();
