@@ -17,7 +17,7 @@ public class Smoke_login {
 			driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			driver.get("http://toolsqa.com/");
-			driver.findElement(By.xpath(".//*[@id='primary-menu']/li[1]/a/span[1]/span/span")).click();
+			//driver.findElement(By.xpath(".//*[@id='primary-menu']/li[1]/a/span[1]/span/span")).click();
 			driver.close();			
 		}
 		catch(Exception e)
